@@ -13,3 +13,15 @@ números dentro do sorteio: "1, 2, 3, 4... 58, ,59, 60".
 
 quantidade de resultados: "6"
 
+
+
+##### Notas de atualização:
+
+##### Versão 0.2
+
+##### ![image-20220913233246081](C:\Users\X\AppData\Roaming\Typora\typora-user-images\image-20220913233246081.png)
+
+Adicionado novos recursos, com a finalidade de deixar o aplicativo mais prático foi incluso opções preconfiguradas.
+[Novo] Jogar dados
+[Novo] Mega sena simulador
+

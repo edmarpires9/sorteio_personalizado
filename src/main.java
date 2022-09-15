@@ -1,4 +1,4 @@
-//Criando um app que sorteia números conforme a necessidade do usuário.
+package src;
 
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -16,6 +16,7 @@ class Main
         Scanner input = new Scanner(System.in);
         int modo = input.nextInt();
 
+        //OPÇÃO PERSONALIZADA
         if(modo == 1)
         {
             //Inserir quantidade de resultados
@@ -44,12 +45,14 @@ class Main
             }
         }
         
+
+        //OPÇÃO PREDEFINADA JOGAR DADO
         else if(modo == 2)
         {
             while(true)
             {
-                int quantidade_resultados = 1;          
-                int quantidade_numeros = 6;
+                final int quantidade_resultados = 1;          
+                final int quantidade_numeros = 6;
                 
                 //Criando uma lista de inteiros conforme o usuário precisa
                 ArrayList<Integer> lista = new ArrayList<>();
@@ -78,12 +81,14 @@ class Main
             }
         }
 
+
+        //OPÇÃO PREDEFINADA MEGA SENA
         else if(modo == 3)
         {
             while(true)
             {
-                int quantidade_resultados = 6;          
-                int quantidade_numeros = 60;
+                final int quantidade_resultados = 6;          
+                final int quantidade_numeros = 60;
                 
                 //Criando uma lista de inteiros conforme o usuário precisa
                 ArrayList<Integer> lista = new ArrayList<>();
@@ -111,6 +116,10 @@ class Main
                 }
             }
         }
+
+        //OPÇÃO INVALIDA
+        else
+        System.out.println("OPÇÃO INVÁLIDA!");
         input.close();
     }
 }
