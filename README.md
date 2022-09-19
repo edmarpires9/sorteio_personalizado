@@ -17,9 +17,11 @@ quantidade de resultados: "6"
 
 ##### Notas de atualização:
 
-##### Versão 0.2
+##### Atualização #2
 
-##### ![image-20220913233246081](C:\Users\X\AppData\Roaming\Typora\typora-user-images\image-20220913233246081.png)
+Atualização de melhoria no código. Incrementado boas práticas, foi adicionado o uso de constantes nos valores constantes do aplicativo.
+
+##### Atualização #1
 
 Adicionado novos recursos, com a finalidade de deixar o aplicativo mais prático foi incluso opções preconfiguradas.
 [Novo] Jogar dados
